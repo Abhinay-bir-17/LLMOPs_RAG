@@ -1,7 +1,32 @@
-t[project]
+[project]
 name = "llmops-rag"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "doc2txt>=1.0.8",
+    "faiss-cpu>=1.13.2",
+    "fastapi>=0.128.0",
+    "google-genai>=1.59.0",
+    "ipykernel>=7.1.0",
+    "jinja2>=3.1.6",
+    "langchain>=1.2.6",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.7",
+    "langchain-google-genai>=4.2.0",
+    "langchain-ollama>=1.0.1",
+    "langsmith>=0.6.4",
+    "pandas>=3.0.0",
+    "python-dotenv>=1.2.1",
+    "python-multipart>=0.0.22",
+    "rapidocr-onnxruntime>=1.4.4",
+    "structlog>=25.5.0",
+    "tiktoken>=0.12.0",
+    "uvicorn>=0.40.0",
+]
+# pyproject.toml is the single, official ##config
+# file that describes your Python project:
+# project name Python version dependencies build system
+# tool configs (formatter, linter, test tools, uv, poetry, etc.)
+# Think of it as package.json for Python.

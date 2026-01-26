@@ -1,1 +1,15 @@
 python-dotenv
+structlog
+langchain
+langchain-community
+langchain-core
+doc2txt
+ipykernel
+python-multipart
+faiss-cpu
+fastapi
+uvicorn
+Jinja2
+langsmith
+pandas
+langchain_google_genai

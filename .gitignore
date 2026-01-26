@@ -10,3 +10,7 @@ wheels/
 .venv
 
 project_flow.txt
+data
+.env
+notebook/vectorstore
+uv.lock
