@@ -1,12 +1,12 @@
 embedding_model:
   google:
-    model_name: "models/text-embedding-004"
+    model_name: "models/gemini-embedding-001"
 
   ollama:
     model_name: "nomic-embed-text"
     base_url: "http://localhost:11434"
 
-
+        
 retriever:
   top_k: 10
   search_type: "mmr"  # Options: "similarity", "mmr", "similarity_score_threshold"

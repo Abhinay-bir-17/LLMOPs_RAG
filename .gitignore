@@ -1,3 +1,7 @@
+tmp_test_files/
+logs
+test_temp_data
+test_faiss_index
 # Python-generated files
 __pycache__/
 *.py[oc]
