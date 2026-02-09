@@ -22,9 +22,9 @@ def load_documents(paths: Iterable[Path]) -> List[Document]:
                 loader = Docx2txtLoader(str(p))
             elif ext == ".txt":
                 loader = TextLoader(str(p), encoding="utf-8")
-            else:
+            else:                          
                 log.warning("Unsupported extension skipped", path=str(p))
-                continue
+                continue    
             docs.extend(loader.load())
         log.info("Documents loaded", count=len(docs))
         return docs
